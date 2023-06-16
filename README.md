@@ -17,7 +17,7 @@ Download the Makefile and k_loadd.c, and run `make`.
 ... 
 
 Sample output: 
-
+```
   [Fri Jun 16 14:57:08 2023] Loading the kernel-space load average reader.
   [Fri Jun 16 14:57:08 2023] Creating workqueues.
   [Fri Jun 16 14:57:08 2023] Creating timer.
@@ -42,4 +42,4 @@ Sample output:
   [Fri Jun 16 15:00:02 2023] 1 Avg: 6.45
   [Fri Jun 16 15:00:02 2023] 5 Avg: 1.54
   [Fri Jun 16 15:00:02 2023] 15 Avg: 0.51
-
+```
