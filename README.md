@@ -18,28 +18,28 @@ Download the Makefile and k_loadd.c, and run `make`.
 
 Sample output: 
 
-[Fri Jun 16 14:57:08 2023] Loading the kernel-space load average reader.
-[Fri Jun 16 14:57:08 2023] Creating workqueues.
-[Fri Jun 16 14:57:08 2023] Creating timer.
-[Fri Jun 16 14:57:08 2023] Attempting to read the load averages, iteration: 0
-[Fri Jun 16 14:57:08 2023] Printing loads.
-[Fri Jun 16 14:57:08 2023] 1 Avg: 0.00
-[Fri Jun 16 14:57:08 2023] 5 Avg: 0.01
-[Fri Jun 16 14:57:08 2023] 15 Avg: 0.01
-[Fri Jun 16 14:57:09 2023] Attempting to read the load averages, iteration: 1
-[Fri Jun 16 14:57:09 2023] Printing loads.
-[Fri Jun 16 14:57:09 2023] 1 Avg: 0.00
-[Fri Jun 16 14:57:09 2023] 5 Avg: 0.01
-[Fri Jun 16 14:57:09 2023] 15 Avg: 0.01
-[Fri Jun 16 14:57:10 2023] Attempting to read the load averages, iteration: 2
-[Fri Jun 16 14:57:10 2023] Printing loads.
-[Fri Jun 16 14:57:10 2023] 1 Avg: 0.00
-[Fri Jun 16 14:57:10 2023] 5 Avg: 0.01
-[Fri Jun 16 14:57:10 2023] 15 Avg: 0.01
-... snip ...
-[Fri Jun 16 15:00:02 2023] Attempting to read the load averages, iteration: 174
-[Fri Jun 16 15:00:02 2023] Printing loads.
-[Fri Jun 16 15:00:02 2023] 1 Avg: 6.45
-[Fri Jun 16 15:00:02 2023] 5 Avg: 1.54
-[Fri Jun 16 15:00:02 2023] 15 Avg: 0.51
+  [Fri Jun 16 14:57:08 2023] Loading the kernel-space load average reader.
+  [Fri Jun 16 14:57:08 2023] Creating workqueues.
+  [Fri Jun 16 14:57:08 2023] Creating timer.
+  [Fri Jun 16 14:57:08 2023] Attempting to read the load averages, iteration: 0
+  [Fri Jun 16 14:57:08 2023] Printing loads.
+  [Fri Jun 16 14:57:08 2023] 1 Avg: 0.00
+  [Fri Jun 16 14:57:08 2023] 5 Avg: 0.01
+  [Fri Jun 16 14:57:08 2023] 15 Avg: 0.01
+  [Fri Jun 16 14:57:09 2023] Attempting to read the load averages, iteration: 1
+  [Fri Jun 16 14:57:09 2023] Printing loads.
+  [Fri Jun 16 14:57:09 2023] 1 Avg: 0.00
+  [Fri Jun 16 14:57:09 2023] 5 Avg: 0.01
+  [Fri Jun 16 14:57:09 2023] 15 Avg: 0.01
+  [Fri Jun 16 14:57:10 2023] Attempting to read the load averages, iteration: 2
+  [Fri Jun 16 14:57:10 2023] Printing loads.
+  [Fri Jun 16 14:57:10 2023] 1 Avg: 0.00
+  [Fri Jun 16 14:57:10 2023] 5 Avg: 0.01
+  [Fri Jun 16 14:57:10 2023] 15 Avg: 0.01
+  ... snip ...
+  [Fri Jun 16 15:00:02 2023] Attempting to read the load averages, iteration: 174
+  [Fri Jun 16 15:00:02 2023] Printing loads.
+  [Fri Jun 16 15:00:02 2023] 1 Avg: 6.45
+  [Fri Jun 16 15:00:02 2023] 5 Avg: 1.54
+  [Fri Jun 16 15:00:02 2023] 15 Avg: 0.51
 
